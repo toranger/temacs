@@ -1,0 +1,1 @@
+("~/workstation/cos-cpp-sdk-v5/" "~/gostation/src/github.com/tencentyun/cos-go-sdk-v5/")

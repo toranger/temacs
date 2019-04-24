@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: head
+# key: head
+# --
+
+/*************************************************
+** Copyright(c) `(format-time-string "%Y")`, ${1:alantong}
+** All rights reserved
+**
+** File name: `(file-name-nondirectory (buffer-file-name))`
+** Create time: `(format-time-string "%Y-%m-%d")`
+**
+** Describe: ${2:file content}
+** Notice: ${3:notice part}
+**************************************************/
+$0
