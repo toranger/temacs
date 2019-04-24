@@ -1,4 +1,5 @@
 (require-package 'ivy)
+(require-package 'counsel)
 (ivy-mode t)
 (counsel-mode t)
 

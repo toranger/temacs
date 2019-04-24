@@ -35,7 +35,7 @@
 
 ;; quelpa
 ;; notice can install quelpa by source behind the require-package instead of using elpa-mirror
-(require 'quelpa)
+(require-package 'quelpa)
 (setq quelpa-update-melpa-p nil)
 
 ;; elpa-mirror
