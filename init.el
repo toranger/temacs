@@ -12,6 +12,7 @@
     'load-path 
     (expand-file-name "lisp" user-emacs-directory))
 
+(setq scheme-program-name "guile") 
 ;; require plugins
 (require 'init-package)
 (require 'init-vim)
@@ -52,7 +53,7 @@
     ("1436d643b98844555d56c59c74004eb158dc85fc55d2e7205f8d9b8c860e177f" "8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a" default)))
  '(package-selected-packages
    (quote
-    (pdf-tools ivy-xref gxref git-gutter emamux yasnippet avy multi-term magit go-mode projectile lsp-mode gruvbox-theme counsel ivy window-numbering flycheck evil-matchit quelpa evil-surround evil-leader)))
+    (restclient pdf-tools ivy-xref gxref git-gutter emamux yasnippet avy multi-term magit go-mode projectile lsp-mode gruvbox-theme counsel ivy window-numbering flycheck evil-matchit quelpa evil-surround evil-leader)))
  '(pdf-view-midnight-colors (quote ("#fdf4c1" . "#282828"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
