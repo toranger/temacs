@@ -6,7 +6,8 @@
   "t"  'multi-term
   "n"  'xref-find-definitions
   "m"  'xref-pop-marker-stack
-  "g"  'godef-jump)
+  "g"  'godef-jump
+  "h"  'highlight-symbol-at-point)
 
 
 

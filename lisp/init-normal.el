@@ -27,6 +27,9 @@
 ;; when use the emamux the esc can not work very well
 ;; it does not work, but with the "set -s escape-time 0" in .tmux.conf
 (setq evil-intercept-esc 'always)
+;; highlight for the org mode
+(setq org-src-fontify-natively t)
+
 
 
 

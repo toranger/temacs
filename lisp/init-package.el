@@ -7,10 +7,12 @@
 			 ;; offline git -----------
                          ;; ("mygelpa" . "https://raw.githubusercontent.com/toranger/myelpa/master")
 			 ;; china org -------------
-                         ("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ("melpa" . "http://elpa.emacs-china.org/melpa/")
-                         ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/")
-                         ("org" . "http://elpa.emacs-china.org/org/")
+                         ;; ("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ;; ("melpa" . "http://elpa.emacs-china.org/melpa/")
+                         ;; ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/")
+                         ;; ("org" . "http://elpa.emacs-china.org/org/")
+			 ("gnu"   . "http://mirrors.cloud.tencent.com/elpa/gnu/")
+			 ("melpa" . "http://mirrors.cloud.tencent.com/elpa/melpa/")
 
                          ))
 
