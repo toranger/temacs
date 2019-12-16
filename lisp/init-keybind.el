@@ -2,11 +2,12 @@
   "hm" 'describe-mode
   "hk" 'describe-key
   "l"  'linum-mode
-  "f"  'find-file
-  "t"  'multi-term
+  "e"  'find-file
+  "t"  'vterm
   "n"  'xref-find-definitions
   "m"  'xref-pop-marker-stack
   "g"  'godef-jump
+  "f"  'dumb-jump-go
   "h"  'highlight-symbol-at-point)
 
 

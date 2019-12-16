@@ -7,12 +7,13 @@
 			 ;; offline git -----------
                          ;; ("mygelpa" . "https://raw.githubusercontent.com/toranger/myelpa/master")
 			 ;; china org -------------
-                         ;; ("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ;; ("melpa" . "http://elpa.emacs-china.org/melpa/")
+                         ("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ("melpa" . "http://elpa.emacs-china.org/melpa/")
                          ;; ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/")
                          ;; ("org" . "http://elpa.emacs-china.org/org/")
-			 ("gnu"   . "http://mirrors.cloud.tencent.com/elpa/gnu/")
-			 ("melpa" . "http://mirrors.cloud.tencent.com/elpa/melpa/")
+
+			 ;; ("gnu"   . "http://mirrors.cloud.tencent.com/elpa/gnu/")
+			 ;; ("melpa" . "http://mirrors.cloud.tencent.com/elpa/melpa/")
 
                          ))
 
@@ -25,7 +26,7 @@
   (if (package-installed-p package)
       t
     (if (eq core/package-install-mode 'source)
-        (quelpa package)
+          (quelpa package)
       (if (or (assoc package package-archive-contents)
               no-refresh)
           (package-install package)
@@ -43,6 +44,8 @@
 ;; elpa-mirror
 ;; https://github.com/redguardtoo/elpa-mirror
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(add-to-list 'load-path "/home/alantong/downloads/emacs-libvterm")
+
 (require 'elpa-mirror)
 (setq elpamr-default-output-directory "~/.emacs.d/localelpa")
 

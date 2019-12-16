@@ -1,5 +1,5 @@
 (require-package 'magit)
-;; (require-package 'git-gutter)
+(require-package 'git-gutter)
 ;; the git and svn
 (setq git-gutter:handled-backends '(git svn))
 ;; (global-git-gutter-mode +1) normal

@@ -23,7 +23,7 @@
 
 (require 'cl)
 
-(defcustom shell-header-create-function 'eshell
+(defcustom shell-header-create-function 'vterm
   "create function when have not shell buffer"
   :type  'symbol
   :group 'shell-header)
@@ -36,6 +36,7 @@
         (or (eq major-mode 'comint-mode)
             (eq major-mode 'eshell-mode)
             (eq major-mode 'term-mode)
+            (eq major-mode 'vterm-mode)
             (eq (get major-mode 'derived-mode-parent)
                 'comint-mode))))
     (buffer-list))
